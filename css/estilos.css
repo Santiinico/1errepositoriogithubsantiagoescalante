@@ -26,6 +26,13 @@
     width: 28px;
     height: 28px;
 }
+main{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right top, #fed514, #fdda24, #fcdf30, #fbe43b, #fae945, #fae545, #fae044, #fadc44, #face3c, #f9c037, #f7b232, #f4a430);
+    
+}
 .footer{
     background-color:black;
     text-align: center;
