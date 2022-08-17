@@ -26,3 +26,31 @@
     width: 28px;
     height: 28px;
 }
+.footer{
+    background-color:black;
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    text-transform: capitalize;
+}
+.footer address{ 
+text-align:left;
+font-size: medium;
+color: white;
+font-family:fantasy;
+text-decoration:underline;
+}
+.footer ul{
+text-align:right;
+text-decoration:none;
+text-transform:capitalize;
+font-size: medium;
+
+}
+.footer ul a{
+color: white;
+}
+.redes a{
+color: rgba(255, 174, 0, 0.92);
+}
