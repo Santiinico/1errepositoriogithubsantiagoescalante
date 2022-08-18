@@ -33,6 +33,64 @@ main{
     background-image: linear-gradient(to right top, #fed514, #fdda24, #fcdf30, #fbe43b, #fae945, #fae545, #fae044, #fadc44, #face3c, #f9c037, #f7b232, #f4a430);
 
 }
+.contenedor{
+    height:auto;
+    width: 90%;
+    padding: 50px;
+    margin:auto
+    grid-template-columns: repeat(3, 1fr);
+    grid-row: 1fr;
+}
+.contenedor h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color:black;
+    text-shadow: 5px 5px 5px white;
+}
+.cuadrado {
+    height: 300px;
+    width: 300px;
+    background-color: white;
+    line-height: 200px;
+    border: 5px solid #fff;
+    display: grid;
+}
+.c1 {
+    background-image: url(../images/tecla.jpg);
+    background-size: cover;
+    transform: translatex(750px);
+}
+.c1:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+    filter: grayscale(1);
+    box-shadow: 10px 5px 10px 1px #000;
+}
+.c2 {
+    background-image: url(../images/laposta.jpg);
+    background-size: cover;
+    transform: rotate(10deg);
+}
+.c2:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+    filter: grayscale(1);
+    box-shadow: 10px 5px 10px 1px #000;
+}
+.c3 {
+    background-image: url(../images/banda.jpg);
+    background-size: cover;
+    transform:translate(750px)
+}
+.c3:hover{
+    transform: scale(1.2);
+    transition: 0.8s;
+    filter: grayscale(1);
+    box-shadow: 10px 5px 10px 1px #000;
+}
+
 .footer{
     background-color:black;
     text-align: center;
