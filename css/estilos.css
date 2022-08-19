@@ -38,8 +38,6 @@ main{
     width: 90%;
     padding: 50px;
     margin:auto
-    grid-template-columns: repeat(3, 1fr);
-    grid-row: 1fr;
 }
 .contenedor h1{
     text-align: center;
@@ -55,7 +53,6 @@ main{
     background-color: white;
     line-height: 200px;
     border: 5px solid #fff;
-    display: grid;
 }
 .c1 {
     background-image: url(../images/tecla.jpg);
